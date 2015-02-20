@@ -9,7 +9,7 @@ Add dependency to your ```composer.json``` file:
 ```json
 {
     "require": {
-        "ktaris/yii-mexvalidators": "dev-master"
+        "ktaris/yii-mexvalidators": "0.1.0"
     }
 }
 ```
@@ -18,13 +18,13 @@ Add dependency to your ```composer.json``` file:
 
 In order to use the validator, you need to provide the full path to the validator in the model:
 
-´´´php
+```php
 public function rules()
 {
     return [
        ['rfc', 'vendor.ktaris.mexvalidators.rfcValidator'],
     ];
 }
-´´´
+```
 
 [1]: https://github.com/yiisoft/yii "Yii Framework"
