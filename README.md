@@ -9,7 +9,7 @@ Add dependency to your ```composer.json``` file:
 ```json
 {
     "require": {
-        "ktaris/yii-mexvalidators": "0.1.0"
+        "ktaris/yii-mexvalidators": "0.1.1"
     }
 }
 ```
@@ -22,7 +22,7 @@ In order to use the validator, you need to provide the full path to the validato
 public function rules()
 {
     return [
-       ['rfc', 'vendor.ktaris.mexvalidators.rfcValidator'],
+       ['rfc', 'vendor.ktaris.yii-mexvalidators.rfcValidator'],
     ];
 }
 ```
