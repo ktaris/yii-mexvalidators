@@ -23,6 +23,7 @@ public function rules()
 {
     return [
        ['rfc', 'vendor.ktaris.yii-mexvalidators.rfcValidator'],
+       ['curp', 'vendor.ktaris.yii-mexvalidators.curpValidator'],
     ];
 }
 ```
