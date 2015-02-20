@@ -1,0 +1,24 @@
+{
+	"name": "ktaris/yii-mexvalidators",
+	"description": "Two data validators for Mexico-specific data: CURP and RFC.",
+	"homepage": "https://github.com/ktaris/yii-mexvalidators",
+	"keywords": ["yii", "validators", "mexico"],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"type": "yii-extension",
+	"authors": [
+        {
+            "name": "Carlos Ramos",
+            "email": "carlos@ktaris.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.3.0",
+        "yiisoft/yii": "1.1.*",
+	},
+	"support": {
+        "issues": "https://github.com/ktaris/yii-mexvalidators/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "source": "https://github.com/ktaris/yii-mexvalidators"
+    }
+}
